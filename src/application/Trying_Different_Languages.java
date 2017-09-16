@@ -27,7 +27,7 @@ public class Trying_Different_Languages {
 		//speak("I can speak any language you want !");	
 		
 		//Speak Chinese Fuckers
-		//speak("我可以说你想要的任何语言！");
+		speak("我可以说你想要的任何语言！");
 		
 		//Let's Speak in Somalian       
 		//speak("Waxaan ku hadli karaa luqad aad rabto!");
