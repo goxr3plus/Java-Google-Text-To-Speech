@@ -1,0 +1,45 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>JavaGoogleSpeechRecognizer</groupId>
+	<artifactId>JavaGoogleSpeechRecognizer</artifactId>
+	<version>1.0.0</version>
+	<build>
+		<sourceDirectory>src</sourceDirectory>
+		<plugins>
+			<plugin>
+				<artifactId>maven-compiler-plugin</artifactId>
+				<version>3.6.1</version>
+				<configuration>
+					<source>1.8</source>
+					<target>1.8</target>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.sourceforge.javaflacencoder</groupId>
+			<artifactId>java-flac-encoder</artifactId>
+			<version>0.3.7</version>
+		</dependency>
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20150729</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/javazoom/jlayer -->
+		<dependency>
+			<groupId>javazoom</groupId>
+			<artifactId>jlayer</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+	</dependencies>
+
+	<name>Java Google Speech Recognizer</name>
+	<description>Made by GOXR3PLUS STUDIO based on  https://github.com/lkuza2/java-speech-api/</description>
+	<organization>
+		<name>GOXR3PLUS STUDIO</name>
+	</organization>
+</project>
