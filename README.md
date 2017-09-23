@@ -3,6 +3,10 @@ Previously we have seen how to use MaryTTS to produce speech from Text in Java -
 
 Now we will use Java Google Text To Speech API for as a more elegant , flexible and a lot lot smaller in megabytes than MaryTTS :)
 
+# Repository of Java Google Speech Api library used for this tutorial
+
+https://github.com/goxr3plus/java-speech-api
+
 
 # Youtube Introduction 
 
