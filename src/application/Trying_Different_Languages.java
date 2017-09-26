@@ -24,8 +24,7 @@ public class Trying_Different_Languages {
 	public Trying_Different_Languages() {
 		
 		//Let's speak in English
-		synthesizer.setPitch(0.4);
-		speak("Listen looser , you first have to straight up you back . Then look me in the eyes . Your game is weak! You have to be dominant with me . There is no like you grab my hand and kiss me . I mean in real life ! There are people watching this be serious and mysterious .");
+		speak("Hello Dear Friend !");
 		
 		//Speak Chinese Fuckers
 		//speak("我可以说你想要的任何语言！");
@@ -62,21 +61,7 @@ public class Trying_Different_Languages {
 				
 				System.out.println("Successfully got back synthesizer data");
 				
-				Thread.sleep(2000);
-				
-				//Create a JLayer instance
-				Player player2 = new Player(synthesizer.getMP3Data("Yes but you look crippy"));
-				player2.play();
-				
-				Player player3 = new Player(synthesizer.getMP3Data("Have i told you about my last boyfriend , it was like .... "));
-				player3.play();
-				
-				Thread.sleep(1500);
-				
-				Player player4 = new Player(synthesizer.getMP3Data("You must not tell me your name , keep an air of mystery about your self so my attraction level grows"));
-				player4.play();
-				
-			} catch (IOException | JavaLayerException | InterruptedException e) {
+			} catch (IOException | JavaLayerException e) {
 				
 				e.printStackTrace(); //Print the exception ( we want to know , not hide below our finger , like many developers do...)
 				
