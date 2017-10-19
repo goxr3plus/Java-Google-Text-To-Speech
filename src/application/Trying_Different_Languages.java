@@ -5,7 +5,7 @@ import java.io.IOException;
 import com.darkprograms.speech.synthesiser.SynthesiserV2;
 
 import javazoom.jl.decoder.JavaLayerException;
-import javazoom.jl.player.Player;
+import javazoom.jl.player.advanced.AdvancedPlayer;
 
 /**
  * This is where all begins .
@@ -56,7 +56,7 @@ public class Trying_Different_Languages {
 			try {
 				
 				//Create a JLayer instance
-				Player player = new Player(synthesizer.getMP3Data(text));
+				AdvancedPlayer player = new AdvancedPlayer(synthesizer.getMP3Data(text));
 				player.play();
 				
 				System.out.println("Successfully got back synthesizer data");
