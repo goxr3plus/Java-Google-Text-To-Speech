@@ -13,3 +13,13 @@ Now we will use Java Google Text To Speech API for as a more elegant , flexible 
 
 
 > Next Tutorial -> https://github.com/goxr3plus/Java-Google-Speech-Recognizer
+
+## --Maven Build--
+
+### Maven Clean Package [ With Javadocs produced ]
+
+```mvn clean package``` 
+
+### Maven Clean Package [ No Javadocs produced ]
+
+```mvn -Dmaven.javadoc.skip=true clean package``` 
