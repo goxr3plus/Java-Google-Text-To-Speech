@@ -9,7 +9,8 @@ import javazoom.jl.player.advanced.AdvancedPlayer;
 
 /**
  * This is where all begins .
- * 
+ * 利用联网goole翻译，输出音频，但是国内防火墙过不去。
+ * translate.google.com/172.217.160.110（80端口）
  * @author GOXR3PLUS
  *
  */
@@ -24,10 +25,10 @@ public class Trying_Different_Languages {
 	public Trying_Different_Languages() {
 		
 		//Let's speak in English
-		speak("Hello Dear Friend !");
+		//speak("Hello Dear Friend !");
 		
 		//Speak Chinese Fuckers
-		//speak("我可以说你想要的任何语言！");
+		speak("我可以说你想要的任何语言！");
 		
 		//Let's Speak in Somalian       
 		//speak("Waxaan ku hadli karaa luqad aad rabto!");
